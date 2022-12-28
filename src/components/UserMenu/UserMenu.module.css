@@ -1,0 +1,23 @@
+.wrapper {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  margin-left: auto;
+  margin-bottom: auto;
+}
+
+.username {
+  font-weight: 700;
+}
+.button {
+  border-radius: 20%;
+  background-color: white;
+  transition-property: transform, background-color, color;
+  transition-duration: 250ms;
+}
+.button:hover,
+.button:focus {
+  transform: scale(1.1);
+  background-color: rgb(4, 81, 9);
+  color: white;
+}

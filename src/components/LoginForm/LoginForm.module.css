@@ -1,0 +1,24 @@
+.form {
+  width: 320px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.label {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 16px;
+}
+
+.button {
+  border-radius: 20%;
+  background-color: rgb(128, 197, 128);
+  transition-property: transform, background-color, color;
+  transition-duration: 250ms;
+}
+.button:hover,
+.button:focus {
+  transform: scale(1.1);
+  background-color: rgb(4, 81, 9);
+  color: white;
+}

@@ -1,0 +1,29 @@
+.title {
+  text-align: center;
+}
+.contacts {
+  width: 500px;
+  outline: 1px solid black;
+}
+.contactsItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  outline: 1px solid black;
+  padding: 3px;
+}
+
+.contactsName {
+  margin-right: 20px;
+}
+.button {
+  border-radius: 20%;
+  background-color: brown;
+  color: white;
+  transition-property: transform;
+  transition-duration: 250ms;
+}
+.button:hover,
+.button:focus {
+  transform: scale(1.1);
+}

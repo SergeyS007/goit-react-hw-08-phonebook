@@ -1,0 +1,16 @@
+.wrapper {
+  display: inline-block;
+}
+.link {
+  display: inline-block;
+  text-decoration: none;
+  padding: 12px;
+  font-weight: 700;
+  color: #2a363b;
+  font-size: 24px;
+}
+
+.link:hover,
+.link:focus {
+  color: #740de1;
+}
